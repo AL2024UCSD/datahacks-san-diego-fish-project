@@ -4,7 +4,13 @@
 This project applies machine learning and statistical modeling to untangle the complex, non-linear relationships between marine biogeochemistry and Northern anchovy (*Engraulis mordax*) larvae populations. By synthesizing decades of spatio-temporal oceanographic data, this analysis maps how environmental parameters—such as temperature, dissolved oxygen, and nutrient upwelling—interact to create optimal spawning habitats ("Goldilocks zones").
 
 ## 🐟 Background
-The Northern anchovy is one of the most important
+The Northern anchovy is arguably the important prey fish in the California coast, helping to support massive numbers of predators (whales, seabirds, sea lions, other fish, etc.) and acting as a bridge between plankton and higher trophic levels. As such, tracking the population and health of the species is crucial for keeping the California coast ecosystems, and the State and people of California, healthy and thriving. Currently, this is being done by organizations such as the California Cooperative Oceanic Fisheries Investigations (CalCOFI), who send research ships out to predesignated sites where they then take various recordings and measurements. This includes population counts and densities of marine life such as the Northern anchovy. 
+
+However, these organizations are sometimes not avaliable to take the needed population recordings for a varitey of reasons (funding cuts, ships needing maintanence, geopolitical events, etc.). When that happens, we are left in the dark regarding the well-being of California's marine life, which could lead to disasterous consequences later on, especially if it's for a fish as important as the Northern anchovy.
+
+We also do not have a full understanding of how various climate and environmental variables affect Northern anchovy spawning rates. While prior research has found links between larvae populations and certain factors like upwelling, temperature, etc., a complete grasp is still missing. 
+
+What if we could make decent predictions regarding the larvae population of the Northern anchovy without needing to send out these expeditions? What if we had a tool that could assist the scientists at California Cooperative Oceanic Fisheries Investigations (CalCOFI) in determining if anchovy larvae populations are as they should be? What if we could also find out what climate and environmental features affect Northern anchovy spawning rates? Our project and regressor model aims to solve all these questions.
 
 ## 📊 The Data: SIO, NOAA, & ERDDAP
 This project heavily relies on gold-standard time-series datasets maintained by the **Scripps Institution of Oceanography (SIO)** and **NOAA**, accessed via the **ERDDAP** data server. The combination of localized bottle sampling and high-resolution satellite imagery provides a uniquely rich, multi-decade feature space for ML applications.
