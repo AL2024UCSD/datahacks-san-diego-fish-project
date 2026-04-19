@@ -1,4 +1,7 @@
-# Predicting Northern Anchovy Population Dynamics in the California Current
+# Predicting Northern Anchovy Larvae Population Dynamics off the California Current
+
+## How to use
+Just hit run all on the Jupyter notebook and everything should run. All imports are listed at the top of the notebook. If you want to see the timelapse of anchovy larvae density vs sea surface temp across seasons and years, look at either the  california_anchovy_full_map_timelapse.mp4 or the california_anchovy_full_map_timelapse.gif file (the mp4 video goes faster than the gif).
 
 ## 🌊 Project Overview
 This project applies machine learning and statistical modeling to untangle the complex, non-linear relationships between marine biogeochemistry and Northern anchovy (*Engraulis mordax*) larvae populations. By synthesizing decades of spatio-temporal oceanographic data, this analysis maps how environmental parameters—such as temperature, dissolved oxygen, and nutrient upwelling—interact to create optimal spawning habitats ("Goldilocks zones").
